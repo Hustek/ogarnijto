@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="312f518c-b3a9-435f-b1c3-e37c508b84d9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/models/room_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
     </list>
     <ignored path="Sprzatanie.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,11 +44,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="room_spec.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="room_spec.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/models/room_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3626943" vertical-offset="0" max-vertical-offset="579">
+            <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="300">
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20150106153159_add_room_id_to_utilities.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20150106153159_add_room_id_to_utilities.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20150106153407_remove_room_id_from_utilities.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20150106153407_remove_room_id_from_utilities.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20150106153715_create_utilities_rooms.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20150106153715_create_utilities_rooms.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.12214984" vertical-offset="0" max-vertical-offset="614">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20150106152919_create_utilities.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20150106152919_create_utilities.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+              <caret line="7" column="7" selection-start-line="2" selection-start-column="4" selection-end-line="7" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -95,6 +135,10 @@
         <option value="$PROJECT_DIR$/spec/models/house_spec.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/spec/models/room_spec.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20150106153001_add_room_id_to_utility.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20150106153159_add_room_id_to_utilities.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20150106153407_remove_room_id_from_utilities.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20150106153715_create_utilities_rooms.rb" />
       </list>
     </option>
   </component>
@@ -663,10 +707,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150106152919_create_utilities.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <caret line="7" column="7" selection-start-line="2" selection-start-column="4" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/room_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3626943" vertical-offset="0" max-vertical-offset="579">
+        <state vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="300">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150106153159_add_room_id_to_utilities.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150106153407_remove_room_id_from_utilities.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20150106153715_create_utilities_rooms.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12214984" vertical-offset="0" max-vertical-offset="614">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding />
         </state>
       </provider>
