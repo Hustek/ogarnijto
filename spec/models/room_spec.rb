@@ -10,5 +10,6 @@ RSpec.describe Room, :type => :model do
   it { expect(room).to allow_value(true).for(:private) }
   it { expect(room).to allow_value(false).for(:private) }
   it { expect(room).to_not allow_value("string").for(:private) }
+  it { expect(room).to have_and_belong_to_many(:users) }
 
 end
